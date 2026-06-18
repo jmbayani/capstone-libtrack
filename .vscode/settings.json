@@ -1,0 +1,19 @@
+{
+    "liveServer.settings.multiRootWorkspaceName": "system-libtrack",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "LibTrackConnection",
+            "database": "libtrack-db",
+            "username": "libtrack-admin",
+            "password": "archivist@2024"
+        }
+    ]
+}

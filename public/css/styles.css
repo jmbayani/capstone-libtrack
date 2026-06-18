@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com");
+@import url("https://fonts.gstatic.com");
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Lilita+One&family=Linden+Hill:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.poppins-thin {
+	font-family: "Poppins", serif;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.poppins-extralight {
+	font-family: "Poppins", serif;
+	font-weight: 200;
+	font-style: normal;
+}
+
+.poppins-light {
+	font-family: "Poppins", serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.poppins-regular {
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.poppins-medium {
+	font-family: "Poppins", serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.poppins-semibold {
+	font-family: "Poppins", serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.poppins-bold {
+	font-family: "Poppins", serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.poppins-extrabold {
+	font-family: "Poppins", serif;
+	font-weight: 800;
+	font-style: normal;
+}
+
+.poppins-black {
+	font-family: "Poppins", serif;
+	font-weight: 900;
+	font-style: normal;
+}
+
+.poppins-thin-italic {
+	font-family: "Poppins", serif;
+	font-weight: 100;
+	font-style: italic;
+}
+
+.poppins-extralight-italic {
+	font-family: "Poppins", serif;
+	font-weight: 200;
+	font-style: italic;
+}
+
+.poppins-light-italic {
+	font-family: "Poppins", serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.poppins-regular-italic {
+	font-family: "Poppins", serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.poppins-medium-italic {
+	font-family: "Poppins", serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.poppins-semibold-italic {
+	font-family: "Poppins", serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.poppins-bold-italic {
+	font-family: "Poppins", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.poppins-extrabold-italic {
+	font-family: "Poppins", serif;
+	font-weight: 800;
+	font-style: italic;
+}
+
+.poppins-black-italic {
+	font-family: "Poppins", serif;
+	font-weight: 900;
+	font-style: italic;
+}
+.libre-franklin-regular {
+	font-family: "Libre Franklin", serif;
+	font-optical-sizing: auto;
+	font-weight: 400;
+	font-style: normal;
+  }
+.lilita-one-regular {
+	font-family: "Lilita One", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.linden-hill-regular {
+	font-family: "Linden Hill", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+@media only screen and (max-width: 1080px) {
+	.container {grid-area: 1 / span 6;}
+	.item2 {grid-area: 2 / span 6;}
+	.item3 {grid-area: 3 / span 6;}
+	.item4 {grid-area: 4 / span 6;}
+	.item5 {grid-area: 5 / span 6;}
+  }
+  
+  @media only screen and (min-width: 1080px) {
+	.container {grid-area: 1 / span 6;}
+	.item2 {grid-area: 2 / span 1;}
+	.item3 {grid-area: 2 / span 4;}
+	.item4 {grid-area: 3 / span 6;}
+	.item5 {grid-area: 4 / span 6;}
+  }
+  
+  @media only screen and (min-width: 900px) {
+	.container {grid-area: 1 / span 6;}
+	.item2 {grid-area: 2 / span 1;}
+	.item3 {grid-area: 2 / span 4;}
+	.item4 {grid-area: 2 / span 1;}
+	.item5 {grid-area: 3 / span 6;}
+  }
+  
+  

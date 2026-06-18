@@ -1,0 +1,16 @@
+{
+    "build": {
+      "builder": "nixpacks",
+      "config": {
+        "phpVersion": "8.2",
+        "startCommand": "php -S 0.0.0.0:${PORT}"
+      }
+    },
+    "environments": {
+      "production": {
+        "variables": {
+          "PORT": "${{ Railway.port }}"
+        }
+      }
+    }
+  }

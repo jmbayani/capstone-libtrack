@@ -1,0 +1,33 @@
+.sidebar_____icon--up { 
+    height: 20px;
+    align-self: flex-end;
+    width: 24px;
+}
+.dhi-group {
+    display: none;
+}
+.main-container_____text--tutorial-description {
+    color: var(--black_900);
+    margin-right: 6px;
+    @media only screen and (max-width: 1050px) { 
+        font-size: 22px;
+        margin-right: 0px;
+    }
+}
+.book-profile {
+    height: 370px;
+    gap: var(--space-x1);
+    display: flex;
+    background-image: url(../public/images/img_group_2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding: var(--space-md);
+    border-radius: var(--radius-2x1);
+    @media only screen and (max-width: 1440px) {
+        height: auto;
+        padding-left: var(--space-x1);
+        padding-right: var(--space-x1);
+    }
+}
